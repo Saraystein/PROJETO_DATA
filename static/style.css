@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+#resultIso.error,
+#resultBr.error {
+  color: #dc3545;
+}
+
+#resultIso.success,
+#resultBr.success {
+  color: #198754;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
